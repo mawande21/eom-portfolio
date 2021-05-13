@@ -212,7 +212,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "who i am";
+    content: "Who am I";
 }
 .about .about-content .left{
     width: 45%;
@@ -266,7 +266,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "What I offer";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -303,7 +303,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "What I know";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -359,11 +359,17 @@ section .title::after{
     top: 0;
     background: crimson;
 }
+.skills-content .right .wp::before{
+    width: 90%;
+}
 .skills-content .right .html::before{
     width: 95%;
 }
 .skills-content .right .css::before{
     width: 90%;
+}
+.skills-content .right .xd::before{
+    width: 95%;
 }
 .skills-content .right .js::before{
     width: 70%;
@@ -380,7 +386,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "References";
 }
 .teams .carousel .card{
     background: #222;
@@ -443,7 +449,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "Get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
